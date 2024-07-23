@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            /* border: 3px solid black; */
+        }
+        .header{
+            background-color: blue;
+            color: yellow;
+            padding: 30px;
+            text-align: center;
+        }
+        .nav > .menu{
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+        .nav > .menu a{
+            background-color: yellow;
+            padding: 10px;
+            margin-top: 10px;
+            display: block;
+            border: 4px solid blue;
+            width: 100%;
+            color: blue;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .main{
+            float: left;
+            width: 60%;
+            padding: 40px;
+            border: 3px solid black;
+            text-align: center;
+            background-image: url('./images/bg2.jfif');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
+            font-size: 20px;
+            color: blue;
+        }
+        .side1{
+            float: left;
+            width: 20%;
+            border: 3px solid yellow;
+            background-color: brown;
+            color: white;
+            height: 300px;
+        }
+
+        @media screen and (max-width:700px) {
+            .header{
+                background-color: yellow;
+                color: blue;
+                padding: 10px;
+                text-align: center;
+
+            }
+            .nav > .menu{
+                width: 100%;
+            }
+            .main{
+                width: 100%;
+                overflow: scroll;
+            }
+            .side1{
+                width: 100%;
+            }
+            .side1 img{
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>chenni super kings 2024</h1>
+
+    </div>
+    <div class="nav">
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+
+        </div>
+
+    </div>
+
+    <div class="main">
+        <!-- <img src="./images/bg1.png" height="100px" width="200px" alt="csk"> -->
+        <h3>Chennai Super Kings (CSK) is an Indian professional cricket franchise based in Chennai, Tamil Nadu. The team competes in the Indian Premier League (IPL) and was one of the eight franchises incorporated when the league was established in 2008. The team plays its home matches at the M. A. Chidambaram Stadium in Chennai and is owned by Chennai Super Kings Cricket Limited.</h3>
+
+    </div>
+    <div class="side1">
+       
+        <img src="./images/dhoni.jpg" height="300px" width="300px" >
+        
+
+    </div>
+</body>
+</html>
